@@ -1,12 +1,14 @@
-## HW7
-This folder contains the provided code for hw7.
+# HW7
+
+Binary and Red-Black Trees
+- RB Tree inherits from Binary Tree
+- Tests search, insert, delete functions of RB Tree
 
 ######Instructions for Grader
 
 To compile all files: 
 
 make
-
 
 This will compile all the files needed to run hw7
 
@@ -16,9 +18,7 @@ To run rectangles:
 
 Input file should be formatted correctly as described in the HW assignment, but there are checks if incorrectly formatted.
 
-**INCOMPLETE, rectangles only works when there is no solution.
-
-**however, it does parse successfully.
+Rectangles only works when there is no solution, however it does parse successfully.
 
 To run test (my test class for my RBTree and BST Iterator)
 
