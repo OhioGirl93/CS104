@@ -1,0 +1,36 @@
+Name: Jonathan Wang
+USC ID: 5914937599
+Email: jonathzw@usc.edu
+
+Problem 1:
+a) Unmodified: Nothing to commit, working directory clean.
+README file contains instructions on how to to use Markdown format, which converts text into HTML. 
+
+b) Untracked/Modified: fun_problem.txt is untracked and README.md was modified.
+Last line of README.md contains the phrase we inputted in quotations in the terminal "Markdown is easy" on a new line.
+fun_problem is still empty.
+
+c) Staged: The modified README.md file and the new fun_problem.txt file are ready to be committed.
+
+d) Unmodified->Modified: My branch is ahead by 1 commit from first command. README.md and fun_problem.txt were unmodified after the commit, but then after the echo commands, the files are not staged for commit yet and are modified.
+README.md now has the phrase "Markdown is too easy" on a new line in the file, along with the previous phrase.
+fun_problem.txt has the phrase "So far, so good" on the first line.
+
+e) Staged/Unmodified. README.md is staged and ready to be commited. My branch is still ahead by 1 commit. fun_problem.txt no longer apears as a modified file and is unmodified.
+README.md is the same.
+fun_problem.txt is now empty and the previous phrase was removed. This is because checkout updates the file to the previous commit and the last updated branch.
+
+f) README.md still has changes to be committed, but now it has changes that are not staged for commit yet as well. README.md now has the phrase "Fancy git move" on a new line along with the previous phrases. This status was acheived because the previous changes to README.md were added but not committed. At the same time, we made more changes without adding to the older, staged-for-commit version of README.md. Therefore we have two versions of the file in the git lifecycle: one with older changes that has been added but not committed and is just staged, and the other with the latest changes which has not been added yet which is modified.
+
+Problem 6:
+a) theta (1)
+The stack empty function calls the LListDbl empty function, giving it theta (1). the empty function for LListDbl only has one line, which returns a true/false statement by accessing a private variable and comparing it to 0. In total, there are two operations done, giving it a theta (2). Since this is constant time, it becomes theta (1).
+
+b) theta (n)
+The stack push function calls the LListDbl size function, which is theta (1), and then the LListDbl insert function. The insert function has many constant time calls of theta (1) each, but when it uses the private function getNodeAt, the worst case runtime is (n) because in the worst case, the getNodeAt function would have to loop through the entire linked list. Because I called getNodeAt twice in my else statement as opposed to once or none in my other statements, the theta of that else statement is (2n), which comes down to theta (n) when we ignore the constant in front of (n) and the constant time operations.
+
+c) theta (n)
+Like the push function, the LListDbl size function is called, which is theta (1), and then the LListDbl get function, which has one call to the getNodeAt function and another constant time operation. This makes the worst-case (n) + some constants, which becomes theta (n) for the stack top function.
+
+d) theta (n)
+Like the push function, the pop function calls the LListDbl size function and then the remove function. The remove function is very similar to the insert function in the sense that there are 2 calls to the getNodeAt function for the worst case, giving the function theta (2n) + some constants, which becomes theta (n).
