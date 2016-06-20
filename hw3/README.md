@@ -1,5 +1,11 @@
 ## HW3
 
+Assignment on:
+- Copy constructors
+- Object comparison
+- Linked Lists
+- Sets (Implementing setUnion and setIntersection)
+- Operator Overloading
 
 ######Instructions for Grader:
 
