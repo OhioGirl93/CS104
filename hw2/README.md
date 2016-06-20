@@ -1,5 +1,5 @@
 ## HW2
-######Implementing:
+Introduction and mplementation of:
 - Linked Lists
 - Doubly Linked Lists
 - Stacks
