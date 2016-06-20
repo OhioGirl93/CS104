@@ -1,5 +1,9 @@
 ## HW4
 
+Amazon Database Project
+- Parsing and writing products and users to a database
+- Object-Oriented Design for types of products
+
 ######Instructions for Grader
 
 A makefile is included to compile all .cpp files
