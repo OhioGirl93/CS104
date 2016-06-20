@@ -1,5 +1,12 @@
 ## HW8
-This folder contains the provided code for hw8.
+
+Amazon Database Project Continued:
+- Keyword search function
+- Splay tree for keyword database
+- Merge Sort for search results
+- New user info window
+
+######Instructions for Grader:
 
 To compile all files: 
 
