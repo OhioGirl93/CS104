@@ -1,9 +1,11 @@
 ## HW2
+######Implementing:
+- Linked Lists
+- Doubly Linked Lists
+- Stacks
 
 
 ######Instructions for Grader
-
-All of Problem 1 and Problem 6 is in hw2.txt.
 
 A makefile is included to compile main.cpp, main2.cpp, main3.cpp, and postfix.cpp.
 
