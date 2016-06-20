@@ -1,9 +1,7 @@
 ## HW3
-This folder contains the provided code for hw3. 
 
-Name: Jonathan Wang
-USC ID: 5914937599
-Email: jonathzw@usc.edu
+
+######Instructions for Grader:
 
 A makefile is included to compile all .cpp files
 
