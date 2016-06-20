@@ -1,0 +1,19 @@
+Each of the boxed names in the diagram is a class. Abstract classes are indicated by "*abstract". Classes that have the word "public/protected/private" indicate what type of inheritance it is, if any. The dashed line indicates a "has-a" relationship and regular line indicates a "is-a" relationship. Next to some classes in a bracket are traits of that class. I chose to make all of the inheritance public because there was no need to make entire classes private or protected. However, I did specify which data members were private/protected/public to make sure other classes that have a "has-a" relationship with certain inherited classes could not access certain variables/functions.
+
+In this video game, there exists 5 base classes: Game, Player, Transportation, Terrain, Item
+
+Game:
+The Game class is a class that has a database of all the players. It will have public functions to add/remove players which the user can utilize as well as a private list of Player pointers. The class implements both the Player class as well as the Terrain class in order to keep track of some sort of map that the player walks through.
+
+Player:
+The Player class has various private data members for strength, defense, and experience. It also contains a map of Items and map of types of Transportation, each of which has a key of Item*/Transportation* and have an int value, which is the quantity. The Player class also has a Weapon class pointer, which is the currently equipped weapon, and a Terrain class pointer, indicating what type of Terrain the player is currently on. Although not listed on the diagram, the class would have setter/getter functions to change these private data variables when necessary. The class implements the Transportation, Item, and Terrain classes.
+
+Transportation:
+The Transportation class is an abstract class that will be publicly inherited by the Horse, Airship, and Ship classes. The Transportation class has a virtual string color variable to indicate the color of the Transportation as well as a Terrain pointer variable to specify what type of Terrain the Transportation is for. The Transportation class therefore implements the Terrain class.
+
+Terrain:
+The Terrain class is an abstract class that will be publicly inherited by the Plains, Forest, Mountains, and Water classes. 
+
+Item:
+The Item class is an abstract class that will be publicly inherited by two abstract classes, Armor and Weapon, and by HealPotion, MagicPotion, Tent, and PhoenixDown classes. Although not included in the assignment or the diagram, the Items class could have a protected price data variable as well as others. The abstract Armor class will be inherited by the Shield, Helmet, Chainmail, and Gauntlets classes. The abstract Weapons class will be inherited by the Sword, Spear, Crossbow, Axe, and Mace classes. 
+
