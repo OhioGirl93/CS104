@@ -1,9 +1,10 @@
 ## HW2
-Introduction and mplementation of:
+
+#######About
+Introduction and implementation of:
 - Linked Lists
 - Doubly Linked Lists
 - Stacks
-
 
 ######Instructions for Grader
 
