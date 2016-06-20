@@ -1,9 +1,7 @@
 ## HW2
-This folder contains the provided code for hw2. 
 
-Name: Jonathan Wang
-USC ID: 5914937599
-Email: jonathzw@usc.edu
+
+######Instructions for Grader
 
 All of Problem 1 and Problem 6 is in hw2.txt.
 
