@@ -1,5 +1,8 @@
 ## HW5
-This folder contains the provided code for hw5. 
+
+Amazon Database Project Continued:
+- Added GUI with QT
+- Windows: Main screen, Cart screen, review screen
 
 ######Instructions for Grader
 
