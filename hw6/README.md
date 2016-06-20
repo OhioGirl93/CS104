@@ -1,4 +1,7 @@
-## HW6
+# HW6
+Sliding puzzle board game
+- Tests 3 puzzle solving heuristics
+- Uses a heap to keep track of tiles
 
 ######Instructions for Grader
 
