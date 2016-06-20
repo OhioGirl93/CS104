@@ -1,6 +1,5 @@
 ## HW2
 
-#######About
 Introduction and implementation of:
 - Linked Lists
 - Doubly Linked Lists
