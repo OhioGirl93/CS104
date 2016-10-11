@@ -2,8 +2,8 @@
 
 [Course Information](http://bits.usc.edu/cs104/syllabus.html)
 
-All code is written in C++
+Written in C++
 
 README files are found in each homework folder describing the assignments
 
-Highlight: hw8
+Highlight: hw8 for Amazon Project!
